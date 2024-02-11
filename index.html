@@ -4,75 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+    <title>Caroline</title>
 </head>
 
 <body>
-    <a href="">Skip to Main Content</a>
+    <a href="#maincontent">Skip to Main Content</a>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pets.html">Pets</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="travel.html">Travel</a></li>
+                <li><a href = "index.html" title="home" class ="active">Home</a></li>
+                <li><a href = "pets.html" title="pets" >Pets</a></li>
+                <li><a href = "recipes.html" title="food" >Recipes</a></li>
+                <li><a href = "travel.html" title="travel" >Travel</a></li>
             </ul>
         </nav>
-        <h1>Welcome to My Website</h1>
+        <h1 class = "main">Welcome to My Website</h1>
     </header>
-    <main>
-        <div>
-            <p>This is my website and it will guide you through some of the places I love visiting, food that I enjoy cooking, and
-                even show you some of the pets that I would love to have! Hope you enjoy it :D<br></p>
+    <main id="maincontent">
+        <div class = "main">
+            <h2>This is my website and it will guide you through some of the places I love visiting, food that I enjoy cooking, and
+                even show you some of the pets that I would love to have! Hope you enjoy it :D<br></h2>
         </div>
-        <div><h2><br>It might seem odd, but I would love to get to know you!<br></h2></div>
-        <div>
-            <p>What are your favorite kinds of pets?<br></p>
-            <form>
-                <input type="checkbox" id="pet1" name="pet1" value="cat">
-                <label for="pet1">Cats</label><br>
-                <input type="checkbox" id="pet2" name="pet3" value="bunny">
-                <label for="pet2">Rabbits</label><br>
-                <input type="checkbox" id="pet3" name="pet3" value="dog">
-                <label for="pet3">Dogs</label><br>
-                <input type="checkbox" id="pet4" name="pet4" value="fish">
-                <label for="pet4">Fish</label><br>
-                <input type="checkbox" id="pet5" name="pet5" value="hamster">
-                <label for="pet5">Hamster</label><br>
-            </form><br>
-        </div>
-        <div>
-            <p>What kinds of foods do you like to cook?</p>
-            <form>
-                <input type="checkbox" id="food1" name="food1" value="bibimbap">
-                <label for="food1">Bibimbap</label><br>
-                <input type="checkbox" id="food2" name="food2" value="pasta">
-                <label for="food2">Pasta</label><br>
-                <input type="checkbox" id="food3" name="food3" value="ramyeon">
-                <label for="food3">Ramyeon</label><br>
-                <input type="checkbox" id="food4" name="food4" value="pizza">
-                <label for="food4">Pizza</label><br>
-                <input type="checkbox" id="food5" name="food5" value="waffle">
-                <label for="food5">Waffle</label><br>
-            </form><br>
-        </div>
-        <div>
-            <p>If you could travel to any country, where would you go?<br></p>
-            <form>
-                <input type="checkbox" id="country1" name="country1" value="Korea">
-                <label for="country1">Korea</label><br>
-                <input type="checkbox" id="country2" name="country2" value="Germany">
-                <label for="country2">Germany</label><br>
-                <input type="checkbox" id="country3" name="country3" value="Dubai">
-                <label for="country3">Dubai</label><br>
-                <input type="checkbox" id="country4" name="country4" value="Iceland">
-                <label for="country4">Iceland</label><br>
-                <input type="checkbox" id="country5" name="country5" value="Argentina">
-                <label for="country5">Argentina</label><br>
-            </form><br>
+        <div class="container">
+            <div id="other-page-travel">
+                <h2>Travel</h2>
+    
+            </div>
+            <div id="other-page-cooking">
+                <h2>Cooking</h2>
+    
+            </div>
+            <div id="other-page-pets">
+                <h2>Pets<br></h2>
+    
+            </div>
         </div>
     </main>
 
 </body>
-
+<footer>
+    <p>Made by Caroline<br>For SI339 Winter 2024 @ Umich</p>
+</footer>
 </html>
