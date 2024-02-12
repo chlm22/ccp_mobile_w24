@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> 
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title class="other">Pets</title>
 </head>
+
 <body>
-    <a class="skip-main" href="#main">Skip to Main Content</a>
+    <a class="skip-main" href="#maincontent">Skip to Main Content</a>
     <header>
         <nav>
             <ul>
-                <li><a href = "index.html" title="home">Home</a></li>
-                <li><a href = "pets.html" title="pets" class ="active">Pets</a></li>
-                <li><a href = "recipes.html" title="food">Recipes</a></li>
-                <li><a href = "travel.html" title="travel">Travel</a></li>
+                <li><a href="index.html" title="home">Home</a></li>
+                <li><a href="pets.html" title="pets" class="active">Pets</a></li>
+                <li><a href="recipes.html" title="food">Recipes</a></li>
+                <li><a href="travel.html" title="travel">Travel</a></li>
             </ul>
         </nav>
         <h1>Pets I Would Love to Have </h1>
 
     </header>
-    <main id="main">
-        <h1>Pets</h1>
-        <div>
+    <main id="maincontent">
+        <div class="animal-container">
             <h2>Cats</h2>
-            <img src="images/scottish_fold_cat.jpeg" width = "400" alt="A grey Scottish fold cat">
-            <p><br>I want a cat because they seem to be independent and super beautiful!<br>
-            </p>
-            <h3>Likes</h3>
-            <ul>
-                <li>Sleeping on the couch</li>
-                <li>Playing with strings of yarn</li>
-                <li>Hiding in the bed</li>
-            </ul>
-        </div>
-        <div>
+            <div id="cat-container">
+                <img id="cat1" src="images/scottish_fold_cat.jpeg" width="400" alt="A grey Scottish fold cat">
+                <p id="cat2"><br>I want a cat because they seem to be independent and super beautiful!<br>
+                </p>
+                <ul id="cat3">
+                    <li>Sleeping on the couch</li>
+                    <li>Playing with strings of yarn</li>
+                    <li>Hiding in the bed</li>
+                </ul>
+                <img id ="cat4" src="images/giphy.gif" alt="A cat playing with its paws" class="animation">
+            </div>
             <h2>Rabbits</h2>
-            <img src="images/bunny.webp" width = "400" alt="A white small bunny">
-            <p><br>I would love to have bunnies because they seem so cute and I don't have to take them out for walks.<br></p>
-            <h3>Likes</h3>
-            <ul>
-                <li>Jumping</li>
-                <li>Eating kale and carrots</li>
-                <li>Moving around the house on a roomba</li>
-            </ul>
-        </div>
-        <div>
+            <div id="rabbit-container">
+                <img id="r1"src="images/bunny.webp" width="400" alt="A white small bunny">
+                <p id="r2"><br>I would love to have bunnies because they seem so cute and I don't have to take them out for
+                    walks.</p>
+                <ul id="r3">
+                    <li>Jumping</li>
+                    <li>Eating kale and carrots</li>
+                    <li>Moving around the house on a roomba</li>
+                </ul>
+                <img src="images/bunnygif.gif" alt="A cartoon bunny rolling" id="r4" class="animation">
+            </div>
             <h2>Guinea Pigs</h2>
-            <img src="images/guineapig.jpeg" width = "400" alt="A guinea pig with whiskers and brown and orange spots.">
-            <p><br>Guinea pigs seem so cute and I love that they look like giant hamsters.<br></p>
-            <h3>Likes</h3>
-            <ul>
-                <li>Running on the wheel</li>
-                <li>Eating hay and lettuce</li>
-                <li>Napping throughout the day</li>
-            </ul>
-        </div>
-        <div>
+            <div id="guineapig-container">
+                <img id="gp1"src="images/guineapig.jpeg" width="400"
+                alt="A guinea pig with whiskers and brown and orange spots.">
+                <p id="gp2"><br>Guinea pigs seem so cute and I love that they look like giant hamsters.<br></p>
+                <ul id="gp3">
+                    <li>Running on the wheel</li>
+                    <li>Eating hay and lettuce</li>
+                    <li>Napping throughout the day</li>
+                </ul>
+                <img src="images/guineapicsgif.gif" alt="Two guinea pigs leaving a leaf" id="r4" class="animation">
+            </div>
 
         </div>
     </main>
-    
 </body>
+
 <footer>
     <p>Made by Caroline<br>For SI339 Winter 2024 @ Umich</p>
 </footer>
+
 </html>
