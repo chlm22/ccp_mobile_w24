@@ -1,27 +1,16 @@
-.skip-main{
-    overflow:hidden;
-    z-index: -999;
-    left: -9999px;
-    padding: 1 rem;
+.skip-main a{
     position: absolute;
-    top: 0;
+    top: -40px;
     color: #D1E8FC;
-    transform: translateY(-100%);
+    z-index: 10;
 }
 
-.skip-main:focus{
+.skip-main a:focus{
     color: #D1E8FC;
     background-color: #000000;
-    transform: translateY(0%);
+    top: 20 px;
     position: absolute;
-    z-index: 999; 
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    position: static;
-    width: auto;
-    height: auto;
+    z-index: 10;
 }
 
 html{
